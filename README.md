@@ -1,1 +1,1 @@
-# theme-int
+# @fkui-community/theme-int

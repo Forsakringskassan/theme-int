@@ -1,0 +1,25 @@
+@use "version" as *;
+
+@use "@fkui/theme-default/src/default" as fkuiTheme with (
+    $global: false
+);
+
+:root {
+    --fkui-community-theme-internal-version: "#{$version}";
+}
+
+html:not([data-color-mode]) {
+    @include fkuiTheme.light;
+}
+
+html[data-color-mode="auto"] {
+    @include fkuiTheme.auto;
+}
+
+html[data-color-mode="dark"] {
+    @include fkuiTheme.dark;
+}
+
+html[data-color-mode="light"] {
+    @include fkuiTheme.light;
+}

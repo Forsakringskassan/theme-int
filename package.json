@@ -1,0 +1,82 @@
+{
+  "name": "@fkui-community/theme-int",
+  "version": "0.0.1",
+  "private": true,
+  "description": "FKUI Community Theme Internal",
+  "keywords": [],
+  "homepage": "https://github.com/fkui-community/theme-int",
+  "bugs": "https://github.com/fkui-community/theme-int/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkui-community/theme-int.git"
+  },
+  "license": "MIT",
+  "author": "Försäkringskassan",
+  "type": "module",
+  "exports": {
+    ".": {}
+  },
+  "types": "",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "fkui-theme-builder",
+    "eslint": "eslint --cache .",
+    "eslint:fix": "eslint --fix .",
+    "lint": "npm run eslint && npm run prettier:check && npm run stylelint",
+    "lint:fix": "npm run eslint:fix && npm run prettier:write && npm run stylelint:fix",
+    "prepare": "commitlint-config",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "stylelint": "stylelint \"src/**/*.{css,scss,vue}\"",
+    "stylelint:fix": "npm run stylelint -- --fix",
+    "pretest": "npm run lint",
+    "test": ""
+  },
+  "commitlint": {
+    "extends": "@forsakringskassan/commitlint-config/no-jira"
+  },
+  "prettier": "@forsakringskassan/prettier-config",
+  "release": {
+    "extends": "@forsakringskassan/semantic-release-config"
+  },
+  "stylelint": {
+    "extends": [
+      "@forsakringskassan/stylelint-config"
+    ]
+  },
+  "dependencies": {
+    "@fkui/theme-default": "6.61.0"
+  },
+  "devDependencies": {
+    "@fkui/theme-builder": "6.61.0",
+    "@forsakringskassan/commitlint-config": "4.2.8",
+    "@forsakringskassan/eslint-config": "15.11.13",
+    "@forsakringskassan/eslint-config-typescript": "15.11.14",
+    "@forsakringskassan/prettier-config": "3.7.11",
+    "@forsakringskassan/stylelint-config": "3.5.1",
+    "npm-pkg-lint": "5.4.0",
+    "sass": "1.105.1"
+  },
+  "peerDependencies": {
+    "@fkui/design": "*",
+    "@fkui/vue": "*"
+  },
+  "peerDependenciesMeta": {
+    "@fkui/design": {
+      "optional": true
+    },
+    "@fkui/vue": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": "^22.16 || >= 24",
+    "npm": ">=11.0.0"
+  },
+  "allowScripts": {
+    "unrs-resolver": true,
+    "@parcel/watcher": false
+  }
+}
