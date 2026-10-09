@@ -1,0 +1,37 @@
+@use "version" as *;
+@use "shared/custom-variables" as customVariables;
+
+@use "@fkui/theme-default/src/default" as fkuiTheme with (
+    $global: false
+);
+
+:root {
+    --fkui-community-theme-internal-version: "#{$version}";
+}
+
+html:not([data-color-mode]) {
+    @include fkuiTheme.light;
+    @include customVariables.light;
+}
+
+html[data-color-mode="auto"] {
+    @include fkuiTheme.auto;
+
+    @media (prefers-color-scheme: light) {
+        @include customVariables.light;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        @include customVariables.dark;
+    }
+}
+
+html[data-color-mode="dark"] {
+    @include fkuiTheme.dark;
+    @include customVariables.dark;
+}
+
+html[data-color-mode="light"] {
+    @include fkuiTheme.light;
+    @include customVariables.light;
+}

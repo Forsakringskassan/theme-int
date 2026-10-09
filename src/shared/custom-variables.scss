@@ -1,0 +1,12 @@
+@mixin _shared() {
+    --f-font-size-default-rem: 14px;
+    --f-font-size-default-large-up-rem: 14px;
+}
+
+@mixin light() {
+    @include _shared;
+}
+
+@mixin dark() {
+    @include _shared;
+}
