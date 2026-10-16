@@ -60,7 +60,7 @@
     "@forsakringskassan/commitlint-config": "4.2.8",
     "@forsakringskassan/eslint-config": "15.11.13",
     "@forsakringskassan/eslint-config-typescript": "15.11.14",
-    "@forsakringskassan/prettier-config": "3.7.11",
+    "@forsakringskassan/prettier-config": "3.7.12",
     "@forsakringskassan/stylelint-config": "3.5.1",
     "npm-pkg-lint": "5.4.0",
     "sass": "1.105.1"
