@@ -63,7 +63,7 @@
     "@forsakringskassan/prettier-config": "3.7.12",
     "@forsakringskassan/stylelint-config": "3.5.1",
     "npm-pkg-lint": "5.4.0",
-    "sass": "1.105.1"
+    "sass": "1.105.2"
   },
   "peerDependencies": {
     "@fkui/design": "*"
