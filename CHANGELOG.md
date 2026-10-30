@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.2](https://github.com/Forsakringskassan/theme-int/compare/v1.0.1...v1.0.2) (2026-10-30)
+
+### Bug Fixes
+
+* **deps:** update [@fkui](https://github.com/fkui) packages to v6.63.0 ([dc8a21f](https://github.com/Forsakringskassan/theme-int/commit/dc8a21f30aeca7019a3bafc40acb742dc38e5ca3))
+
 ## [1.0.1](https://github.com/Forsakringskassan/theme-int/compare/v1.0.0...v1.0.1) (2026-10-23)
 
 ### Bug Fixes
