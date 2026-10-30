@@ -59,7 +59,7 @@
     "@fkui/theme-builder": "6.63.0",
     "@forsakringskassan/commitlint-config": "4.2.8",
     "@forsakringskassan/eslint-config": "15.13.0",
-    "@forsakringskassan/eslint-config-typescript": "15.12.6",
+    "@forsakringskassan/eslint-config-typescript": "15.13.2",
     "@forsakringskassan/prettier-config": "3.7.13",
     "@forsakringskassan/stylelint-config": "3.5.1",
     "npm-pkg-lint": "5.4.0",
