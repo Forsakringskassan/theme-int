@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.5](https://github.com/Forsakringskassan/theme-int/compare/v1.0.4...v1.0.5) (2026-11-19)
+
+### Bug Fixes
+
+* lint code ([b61e99d](https://github.com/Forsakringskassan/theme-int/commit/b61e99d7752e83ab6886c1ddc7145927b4a821c8))
+
 ## [1.0.4](https://github.com/Forsakringskassan/theme-int/compare/v1.0.3...v1.0.4) (2026-11-13)
 
 ### Bug Fixes
