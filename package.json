@@ -60,10 +60,10 @@
     ]
   },
   "dependencies": {
-    "@fkui/theme-default": "6.65.0"
+    "@fkui/theme-default": "6.66.0"
   },
   "devDependencies": {
-    "@fkui/theme-builder": "6.65.0",
+    "@fkui/theme-builder": "6.66.0",
     "@forsakringskassan/commitlint-config": "4.2.8",
     "@forsakringskassan/eslint-config": "15.13.18",
     "@forsakringskassan/eslint-config-typescript": "15.13.15",
